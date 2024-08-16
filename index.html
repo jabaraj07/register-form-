@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="register-div">
+      <h1> REGISTRATION FORM</h1>
+    </div>
+
+    <div class="form-div">
+      <form id="register">
+        <label for="name"><b>NAME</b></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Enter name"
+          name="name"
+          id="name"
+          required
+        /><br /><br />
+
+        <label for="email"><b>EMAIL</b></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        /><br /><br />
+
+        <label for="age"><b>AGE</b></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Enter Age"
+          name="Age"
+          id="age"
+          required
+        /><br /><br />
+
+        <label for="country"><b>COUNTRY</b></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Enter country"
+          name="country"
+          id="country"
+          required
+        /><br /><br />
+
+        <button
+          style="width: 170px; padding: 5px; font-size: 20px"
+          id="button"
+          onclick="change()"
+        >
+          click
+        </button>
+      </form>
+    </div>
+
+      <div class="table-div">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>NAME</th>
+              <th>EMAIL</th>
+              <th>AGE</th>
+              <th>COUNTRY</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <script src="./script.js"></script>
+  </body>
+</html>
